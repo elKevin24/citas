@@ -1,9 +1,18 @@
 package com.medisaas.domain.model;
 
-import java.time.ZonedDateTime;
-import java.util.UUID;
-import java.util.Map;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+import java.time.ZonedDateTime;
+import java.util.Map;
+import java.util.UUID;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Appointment {
     private UUID id;
     private UUID organizationId;
@@ -18,8 +27,6 @@ public class Appointment {
     private int version;
     private Map<String, Object> metadata;
 
-    // Constructors, Getters, y Setters omitidos por brevedad
-
     public enum AppointmentStatus {
         PENDING, CONFIRMED, IN_PROGRESS, COMPLETED, CANCELED
     }
@@ -31,5 +38,9 @@ public class Appointment {
         this.status = AppointmentStatus.CONFIRMED;
     }
     
-    // Domain Logic: Control de Overbooking puede evaluarse a nivel dominio / puerto
+    public void validate() {
+        if (endTime.isBefore(startTime) || endTime.isEqual(startTime)) {
+            throw new IllegalArgumentException("La hora de finalización debe ser estrictamente posterior a la hora de inicio.");
+        }
+    }
 }

@@ -1,0 +1,11 @@
+D:\Proyectos\Citas_medicas\backend\src\main\java\com\medisaas\infrastructure\adapter\in\web\AppointmentController.java
+D:\Proyectos\Citas_medicas\backend\src\main\java\com\medisaas\infrastructure\adapter\out\messaging\AppointmentEventPublisher.java
+D:\Proyectos\Citas_medicas\backend\src\main\java\com\medisaas\infrastructure\adapter\out\persistence\entity\AppointmentEntity.java
+D:\Proyectos\Citas_medicas\backend\src\main\java\com\medisaas\infrastructure\adapter\out\persistence\repository\AppointmentRepository.java
+D:\Proyectos\Citas_medicas\backend\src\main\java\com\medisaas\infrastructure\adapter\in\web\dto\CreateAppointmentRequest.java
+D:\Proyectos\Citas_medicas\backend\src\main\java\com\medisaas\application\mapper\AppointmentMapper.java
+D:\Proyectos\Citas_medicas\backend\src\main\java\com\medisaas\domain\model\AppointmentCreatedEvent.java
+D:\Proyectos\Citas_medicas\backend\src\main\java\com\medisaas\domain\model\Appointment.java
+D:\Proyectos\Citas_medicas\backend\src\main\java\com\medisaas\application\service\AppointmentService.java
+D:\Proyectos\Citas_medicas\backend\src\main\java\com\medisaas\infrastructure\adapter\in\web\dto\AppointmentResponse.java
+D:\Proyectos\Citas_medicas\backend\src\main\java\com\medisaas\MedisaasApplication.java

@@ -7,8 +7,17 @@ import java.time.ZonedDateTime;
 import java.util.Map;
 import java.util.UUID;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @Entity
 @Table(name = "appointments")
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class AppointmentEntity {
 
     @Id
@@ -43,5 +52,4 @@ public class AppointmentEntity {
     @Column(name = "metadata", columnDefinition = "jsonb")
     private Map<String, Object> metadata;
 
-    // Getters / Setters to map back to Domain
 }

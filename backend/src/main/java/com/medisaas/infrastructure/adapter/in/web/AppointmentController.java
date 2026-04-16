@@ -1,45 +1,60 @@
 package com.medisaas.infrastructure.adapter.in.web;
 
-import com.medisaas.domain.model.Appointment;
+import com.medisaas.application.service.AppointmentService;
+import com.medisaas.infrastructure.adapter.in.web.dto.AppointmentResponse;
+import com.medisaas.infrastructure.adapter.in.web.dto.CreateAppointmentRequest;
+import jakarta.validation.Valid;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import java.util.UUID;
+
 import java.util.List;
+import java.util.UUID;
+
+import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/v1/organizations/{organizationId}/branches/{branchId}/appointments")
+@RequiredArgsConstructor
 public class AppointmentController {
 
-    // En Hexagonal, inyectaríamos el puerto de entrada (UseCase)
-    // private final ScheduleAppointmentUseCase scheduleAppointmentUseCase;
+    private final AppointmentService appointmentService;
 
     @PostMapping
-    public ResponseEntity<Appointment> scheduleAppointment(
+    public ResponseEntity<AppointmentResponse> scheduleAppointment(
             @PathVariable UUID organizationId,
             @PathVariable UUID branchId,
-            @RequestBody Appointment appointmentRequest) {
+            @Valid @RequestBody CreateAppointmentRequest request) {
 
-        // Validaría request, mandaría al useCase
-        // ej: scheduleAppointmentUseCase.execute(command);
-        
-        return ResponseEntity.accepted().body(appointmentRequest);
+        // Forzamos que el branchId del request concuerde con la URL param (Seguridad)
+        // en Java 21 records podemos re-instanciar o hacer match, por ahora lo pasamos tal cual 
+        // asumiendo validaciones cross-tenant en el servicio, o reensamblamos:
+        CreateAppointmentRequest securedRequest = new CreateAppointmentRequest(
+                request.doctorId(),
+                request.patientId(),
+                branchId,
+                request.startTime(),
+                request.endTime(),
+                request.metadata()
+        );
+
+        AppointmentResponse response = appointmentService.createAppointment(organizationId, securedRequest);
+        return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 
     @GetMapping
-    public ResponseEntity<List<Appointment>> listAppointments(
+    public ResponseEntity<List<AppointmentResponse>> listAppointments(
             @PathVariable UUID organizationId,
             @PathVariable UUID branchId) {
-        
-        // Retornaría lista de citas de la sucursal
+        // Todo: Implement list in AppointmentService
         return ResponseEntity.ok(List.of());
     }
 
-    // Patrón CQRS o Command-palette friendly para buscar rápido
     @GetMapping("/search")
-    public ResponseEntity<List<Appointment>> searchAppointments(
+    public ResponseEntity<List<AppointmentResponse>> searchAppointments(
             @PathVariable UUID organizationId,
             @RequestParam String query) {
-        // ... Lógica de búsqueda global CMD+K ...
+        // Todo: CMD+K Search Logic
         return ResponseEntity.ok(List.of());
     }
 }

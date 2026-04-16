@@ -1,0 +1,14 @@
+com\medisaas\infrastructure\adapter\out\persistence\entity\AppointmentEntity.class
+com\medisaas\infrastructure\adapter\out\persistence\entity\AppointmentEntity$AppointmentEntityBuilder.class
+com\medisaas\infrastructure\adapter\in\web\dto\CreateAppointmentRequest.class
+com\medisaas\MedisaasApplication.class
+com\medisaas\application\mapper\AppointmentMapperImpl.class
+com\medisaas\domain\model\Appointment.class
+com\medisaas\domain\model\AppointmentCreatedEvent.class
+com\medisaas\infrastructure\adapter\out\persistence\repository\AppointmentRepository.class
+com\medisaas\domain\model\Appointment$AppointmentStatus.class
+com\medisaas\application\mapper\AppointmentMapper.class
+com\medisaas\infrastructure\adapter\out\messaging\AppointmentEventPublisher.class
+com\medisaas\infrastructure\adapter\in\web\AppointmentController.class
+com\medisaas\infrastructure\adapter\in\web\dto\AppointmentResponse.class
+com\medisaas\application\service\AppointmentService.class
