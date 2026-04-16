@@ -1,0 +1,1081 @@
+2026.04.15 22:22:25 INFO  Started: Metals version 1.6.7 in folders 'D:\Proyectos\Citas_medicas' for client Antigravity 1.107.0.
+2026.04.15 22:22:25 INFO  Memory monitor started
+2026.04.15 22:22:27 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.15 22:22:34 INFO  running 'C:\Users\busqu\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.18%252B8\OpenJDK17U-jdk_x64_windows_hotspot_17.0.18_8.zip\jdk-17.0.18+8\bin\java.exe -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=D:\Proyectos\Citas_medicas\backend -Dmaven.home=C:\Users\busqu\AppData\Local\Temp\metals4620221751166448202 -cp C:\Users\busqu\AppData\Local\Temp\metals4620221751166448202\maven-wrapper.jar org.apache.maven.wrapper.MavenWrapperMain generate-sources ch.epfl.scala:bloop-maven-plugin:2.0.3:bloopInstall -DdownloadSources=true'
+abr. 15, 2026 10:22:36 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.04.15 22:22:40 INFO  [INFO] Scanning for projects...
+2026.04.15 22:22:40 INFO  [INFO] 
+2026.04.15 22:22:40 INFO  [INFO] -------------------< com.medisaas:medisaas-backend >--------------------
+2026.04.15 22:22:40 INFO  [INFO] Building medisaas-backend 0.0.1-SNAPSHOT
+2026.04.15 22:22:40 INFO  [INFO]   from pom.xml
+2026.04.15 22:22:40 INFO  [INFO] --------------------------------[ jar ]---------------------------------
+2026.04.15 22:22:40 INFO  [INFO] 
+2026.04.15 22:22:40 INFO  [INFO] --- bloop:2.0.3:bloopInstall (default-cli) @ medisaas-backend ---
+2026.04.15 22:22:44 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies
+2026.04.15 22:22:44 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework:spring-aspects:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework:spring-aspects:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework:spring-aspects:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework:spring-aspects:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-aop:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-aop:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-aop:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-aop:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-amqp:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-amqp:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-amqp:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-amqp/3.2.4/spring-boot-starter-amqp-3.2.4-sources.jar
+2026.04.15 22:22:44 INFO  Progress (1): 0.9/4.7 kB
+2026.04.15 22:22:44 INFO  Progress (1): 2.3/4.7 kB
+2026.04.15 22:22:44 INFO  Progress (1): 3.6/4.7 kB
+2026.04.15 22:22:44 INFO  Progress (1): 4.7 kB    
+2026.04.15 22:22:44 INFO                      
+2026.04.15 22:22:44 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-amqp/3.2.4/spring-boot-starter-amqp-3.2.4-sources.jar (4.7 kB at 8.1 kB/s)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-amqp:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-jdbc:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-jdbc:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-jdbc:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-jdbc:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.retry:spring-retry:jar:2.0.5:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] SUCCESS: org.springframework.retry:spring-retry:jar:2.0.5:compile (sources = false)
+2026.04.15 22:22:44 INFO  [INFO] Resolving artifact: org.springframework.retry:spring-retry:jar:2.0.5:compile (sources = true)
+2026.04.15 22:22:44 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/2.0.5/spring-retry-2.0.5-sources.jar
+2026.04.15 22:22:44 INFO  Progress (1): 0.9/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 2.3/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 3.6/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 5.0/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 6.4/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 7.7/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 8.2/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 9.6/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 11/145 kB 
+2026.04.15 22:22:44 INFO  Progress (1): 12/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 14/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 15/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 16/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 18/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 19/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 21/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 22/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 23/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 25/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 26/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 27/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 29/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 30/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 31/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 33/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 34/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 36/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 37/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 38/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 40/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 41/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 42/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 44/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 45/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 47/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 48/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 49/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 53/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 58/145 kB
+2026.04.15 22:22:44 INFO  Progress (1): 62/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 66/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 70/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 75/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 79/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 82/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 86/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 90/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 95/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 99/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 103/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 107/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 112/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 116/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 120/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 124/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 128/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 133/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 137/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 141/145 kB
+2026.04.15 22:22:45 INFO  Progress (1): 145 kB    
+2026.04.15 22:22:45 INFO                      
+2026.04.15 22:22:45 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/2.0.5/spring-retry-2.0.5-sources.jar (145 kB at 919 kB/s)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework.retry:spring-retry:jar:2.0.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.14.12:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.14.12:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.14.12:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.14.12:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: io.hypersistence:hypersistence-utils-hibernate-63:jar:3.7.0:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: io.hypersistence:hypersistence-utils-hibernate-63:jar:3.7.0:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: io.hypersistence:hypersistence-utils-hibernate-63:jar:3.7.0:compile (sources = true)
+2026.04.15 22:22:45 INFO  Downloading from central: https://repo.maven.apache.org/maven2/io/hypersistence/hypersistence-utils-hibernate-63/3.7.0/hypersistence-utils-hibernate-63-3.7.0-sources.jar
+2026.04.15 22:22:45 INFO  Progress (1): 3.8/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 8.0/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 8.2/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 12/147 kB 
+2026.04.15 22:22:45 INFO  Progress (1): 17/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 21/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 25/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 29/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 33/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 37/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 41/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 45/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 49/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 53/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 57/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 62/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 66/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 82/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 90/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 106/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 123/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 131/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 139/147 kB
+2026.04.15 22:22:45 INFO  Progress (1): 147 kB    
+2026.04.15 22:22:45 INFO                      
+2026.04.15 22:22:45 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/io/hypersistence/hypersistence-utils-hibernate-63/3.7.0/hypersistence-utils-hibernate-63-3.7.0-sources.jar (147 kB at 924 kB/s)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: io.hypersistence:hypersistence-utils-hibernate-63:jar:3.7.0:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.antlr:antlr4-runtime:jar:4.13.0:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.antlr:antlr4-runtime:jar:4.13.0:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.antlr:antlr4-runtime:jar:4.13.0:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.antlr:antlr4-runtime:jar:4.13.0:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.eclipse.angus:angus-activation:jar:2.0.2:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.eclipse.angus:angus-activation:jar:2.0.2:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.eclipse.angus:angus-activation:jar:2.0.2:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.eclipse.angus:angus-activation:jar:2.0.2:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-context:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-context:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-context:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-context:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-web:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-web:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-web:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-web:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: io.hypersistence:hypersistence-tsid:jar:2.1.1:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: io.hypersistence:hypersistence-tsid:jar:2.1.1:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: io.hypersistence:hypersistence-tsid:jar:2.1.1:compile (sources = true)
+2026.04.15 22:22:45 INFO  Downloading from central: https://repo.maven.apache.org/maven2/io/hypersistence/hypersistence-tsid/2.1.1/hypersistence-tsid-2.1.1-sources.jar
+2026.04.15 22:22:45 INFO  Progress (1): 7.7/14 kB
+2026.04.15 22:22:45 INFO  Progress (1): 7.7/14 kB
+2026.04.15 22:22:45 INFO  Progress (1): 14 kB    
+2026.04.15 22:22:45 INFO                     
+2026.04.15 22:22:45 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/io/hypersistence/hypersistence-tsid/2.1.1/hypersistence-tsid-2.1.1-sources.jar (14 kB at 108 kB/s)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: io.hypersistence:hypersistence-tsid:jar:2.1.1:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: jakarta.activation:jakarta.activation-api:jar:2.1.3:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: jakarta.activation:jakarta.activation-api:jar:2.1.3:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: jakarta.activation:jakarta.activation-api:jar:2.1.3:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: jakarta.activation:jakarta.activation-api:jar:2.1.3:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-tx:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-tx:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-tx:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-tx:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-orm:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-orm:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-orm:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-orm:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.postgresql:postgresql:jar:42.6.2:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.postgresql:postgresql:jar:42.6.2:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.postgresql:postgresql:jar:42.6.2:runtime (sources = true)
+2026.04.15 22:22:45 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.6.2/postgresql-42.6.2-sources.jar
+2026.04.15 22:22:45 INFO  Progress (1): 7.7/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 8.2/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 25/870 kB 
+2026.04.15 22:22:45 INFO  Progress (1): 33/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 49/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 57/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 74/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 82/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 90/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 98/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 115/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 131/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 139/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 156/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 172/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 188/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 205/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 221/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 238/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 254/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 270/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 287/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 303/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 319/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 336/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 352/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 369/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 385/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 401/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 418/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 434/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 451/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 467/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 483/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 500/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 516/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 532/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 549/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 565/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 582/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 598/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 614/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 631/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 647/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 664/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 680/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 696/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 713/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 729/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 745/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 762/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 778/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 795/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 811/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 827/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 844/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 860/870 kB
+2026.04.15 22:22:45 INFO  Progress (1): 870 kB    
+2026.04.15 22:22:45 INFO                      
+2026.04.15 22:22:45 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.6.2/postgresql-42.6.2-sources.jar (870 kB at 2.9 MB/s)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.postgresql:postgresql:jar:42.6.2:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.fasterxml:classmate:jar:1.6.0:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.fasterxml:classmate:jar:1.6.0:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.fasterxml:classmate:jar:1.6.0:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.fasterxml:classmate:jar:1.6.0:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-core:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-core:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-core:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-core:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-jdbc:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-jdbc:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.springframework:spring-jdbc:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.springframework:spring-jdbc:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.zaxxer:HikariCP:jar:5.0.1:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.zaxxer:HikariCP:jar:5.0.1:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: com.zaxxer:HikariCP:jar:5.0.1:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: com.zaxxer:HikariCP:jar:5.0.1:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.yaml:snakeyaml:jar:2.2:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.yaml:snakeyaml:jar:2.2:compile (sources = false)
+2026.04.15 22:22:45 INFO  [INFO] Resolving artifact: org.yaml:snakeyaml:jar:2.2:compile (sources = true)
+2026.04.15 22:22:45 INFO  [INFO] SUCCESS: org.yaml:snakeyaml:jar:2.2:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.amqp:spring-rabbit:jar:3.1.3:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.amqp:spring-rabbit:jar:3.1.3:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.amqp:spring-rabbit:jar:3.1.3:compile (sources = true)
+2026.04.15 22:22:46 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-rabbit/3.1.3/spring-rabbit-3.1.3-sources.jar
+2026.04.15 22:22:46 INFO  Progress (1): 8.2/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 16/441 kB 
+2026.04.15 22:22:46 INFO  Progress (1): 33/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 49/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 66/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 82/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 98/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 115/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 123/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 131/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 139/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 156/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 164/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 180/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 197/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 205/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 221/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 238/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 254/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 270/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 287/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 303/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 319/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 336/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 352/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 369/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 385/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 401/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 418/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 434/441 kB
+2026.04.15 22:22:46 INFO  Progress (1): 441 kB    
+2026.04.15 22:22:46 INFO                      
+2026.04.15 22:22:46 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-rabbit/3.1.3/spring-rabbit-3.1.3-sources.jar (441 kB at 1.8 MB/s)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.amqp:spring-rabbit:jar:3.1.3:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.jboss.logging:jboss-logging:jar:3.5.3.Final:runtime (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.jboss.logging:jboss-logging:jar:3.5.3.Final:runtime (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.jboss.logging:jboss-logging:jar:3.5.3.Final:runtime (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.jboss.logging:jboss-logging:jar:3.5.3.Final:runtime (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework:spring-beans:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework:spring-beans:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework:spring-beans:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework:spring-beans:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework:spring-messaging:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework:spring-messaging:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework:spring-messaging:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:46 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/6.1.5/spring-messaging-6.1.5-sources.jar
+2026.04.15 22:22:46 INFO  Progress (1): 8.2/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 16/430 kB 
+2026.04.15 22:22:46 INFO  Progress (1): 25/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 33/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 41/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 57/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 66/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 74/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 90/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 106/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 123/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 139/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 156/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 172/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 188/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 205/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 221/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 238/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 254/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 270/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 287/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 303/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 319/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 336/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 352/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 369/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 385/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 401/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 418/430 kB
+2026.04.15 22:22:46 INFO  Progress (1): 430 kB    
+2026.04.15 22:22:46 INFO                      
+2026.04.15 22:22:46 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/6.1.5/spring-messaging-6.1.5-sources.jar (430 kB at 1.9 MB/s)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework:spring-messaging:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.data:spring-data-commons:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.data:spring-data-commons:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.data:spring-data-commons:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.data:spring-data-commons:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.checkerframework:checker-qual:jar:3.31.0:runtime (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.checkerframework:checker-qual:jar:3.31.0:runtime (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.checkerframework:checker-qual:jar:3.31.0:runtime (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.checkerframework:checker-qual:jar:3.31.0:runtime (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.data:spring-data-jpa:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.data:spring-data-jpa:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.data:spring-data-jpa:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.data:spring-data-jpa:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: com.rabbitmq:amqp-client:jar:5.19.0:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: com.rabbitmq:amqp-client:jar:5.19.0:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: com.rabbitmq:amqp-client:jar:5.19.0:compile (sources = true)
+2026.04.15 22:22:46 INFO  Downloading from central: https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.19.0/amqp-client-5.19.0-sources.jar
+2026.04.15 22:22:46 INFO  Progress (1): 8.2/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 25/392 kB 
+2026.04.15 22:22:46 INFO  Progress (1): 33/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 41/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 57/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 74/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 90/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 106/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 115/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 123/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 139/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 147/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 164/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 180/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 197/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 213/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 229/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 246/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 262/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 279/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 295/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 311/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 328/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 344/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 360/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 377/392 kB
+2026.04.15 22:22:46 INFO  Progress (1): 392 kB    
+2026.04.15 22:22:46 INFO                      
+2026.04.15 22:22:46 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.19.0/amqp-client-5.19.0-sources.jar (392 kB at 2.1 MB/s)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: com.rabbitmq:amqp-client:jar:5.19.0:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: io.smallrye:jandex:jar:3.1.2:runtime (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: io.smallrye:jandex:jar:3.1.2:runtime (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: io.smallrye:jandex:jar:3.1.2:runtime (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: io.smallrye:jandex:jar:3.1.2:runtime (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework:spring-aop:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework:spring-aop:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework:spring-aop:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework:spring-aop:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:txw2:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.glassfish.jaxb:txw2:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:txw2:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.glassfish.jaxb:txw2:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework:spring-jcl:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework:spring-jcl:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework:spring-jcl:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework:spring-jcl:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.aspectj:aspectjweaver:jar:1.9.21:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.aspectj:aspectjweaver:jar:1.9.21:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.aspectj:aspectjweaver:jar:1.9.21:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.aspectj:aspectjweaver:jar:1.9.21:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.amqp:spring-amqp:jar:3.1.3:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.amqp:spring-amqp:jar:3.1.3:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.amqp:spring-amqp:jar:3.1.3:compile (sources = true)
+2026.04.15 22:22:46 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp/3.1.3/spring-amqp-3.1.3-sources.jar
+2026.04.15 22:22:46 INFO  Progress (1): 7.7/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 8.2/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 25/141 kB 
+2026.04.15 22:22:46 INFO  Progress (1): 41/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 57/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 66/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 74/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 82/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 98/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 106/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 115/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 123/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 139/141 kB
+2026.04.15 22:22:46 INFO  Progress (1): 141 kB    
+2026.04.15 22:22:46 INFO                      
+2026.04.15 22:22:46 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp/3.1.3/spring-amqp-3.1.3-sources.jar (141 kB at 957 kB/s)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.amqp:spring-amqp:jar:3.1.3:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework:spring-expression:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework:spring-expression:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework:spring-expression:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework:spring-expression:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.hibernate.orm:hibernate-core:jar:6.4.4.Final:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.hibernate.orm:hibernate-core:jar:6.4.4.Final:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.hibernate.orm:hibernate-core:jar:6.4.4.Final:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.hibernate.orm:hibernate-core:jar:6.4.4.Final:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:46 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:46 INFO  [INFO] Generated .bloop\medisaas-backend.json
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-aspects:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-aspects:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-aspects:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-aspects:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-aop:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-aop:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-aop:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-aop:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-amqp:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-amqp:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-amqp:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-amqp:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-jdbc:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-jdbc:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-jdbc:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-jdbc:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.retry:spring-retry:jar:2.0.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.retry:spring-retry:jar:2.0.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.retry:spring-retry:jar:2.0.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.retry:spring-retry:jar:2.0.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.14.12:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.14.12:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.14.12:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.14.12:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: io.hypersistence:hypersistence-utils-hibernate-63:jar:3.7.0:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: io.hypersistence:hypersistence-utils-hibernate-63:jar:3.7.0:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: io.hypersistence:hypersistence-utils-hibernate-63:jar:3.7.0:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: io.hypersistence:hypersistence-utils-hibernate-63:jar:3.7.0:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.antlr:antlr4-runtime:jar:4.13.0:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.antlr:antlr4-runtime:jar:4.13.0:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.antlr:antlr4-runtime:jar:4.13.0:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.antlr:antlr4-runtime:jar:4.13.0:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.eclipse.angus:angus-activation:jar:2.0.2:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.eclipse.angus:angus-activation:jar:2.0.2:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.eclipse.angus:angus-activation:jar:2.0.2:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.eclipse.angus:angus-activation:jar:2.0.2:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-context:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-context:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-context:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-context:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-web:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-web:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-web:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-web:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: io.hypersistence:hypersistence-tsid:jar:2.1.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: io.hypersistence:hypersistence-tsid:jar:2.1.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: io.hypersistence:hypersistence-tsid:jar:2.1.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: io.hypersistence:hypersistence-tsid:jar:2.1.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.activation:jakarta.activation-api:jar:2.1.3:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.activation:jakarta.activation-api:jar:2.1.3:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.activation:jakarta.activation-api:jar:2.1.3:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.activation:jakarta.activation-api:jar:2.1.3:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-tx:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-tx:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-tx:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-tx:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-orm:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-orm:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-orm:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-orm:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.postgresql:postgresql:jar:42.6.2:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.postgresql:postgresql:jar:42.6.2:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.postgresql:postgresql:jar:42.6.2:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.postgresql:postgresql:jar:42.6.2:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml:classmate:jar:1.6.0:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml:classmate:jar:1.6.0:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml:classmate:jar:1.6.0:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml:classmate:jar:1.6.0:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-core:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-core:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-core:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-core:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-jdbc:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-jdbc:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-jdbc:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-jdbc:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.zaxxer:HikariCP:jar:5.0.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.zaxxer:HikariCP:jar:5.0.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.zaxxer:HikariCP:jar:5.0.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.zaxxer:HikariCP:jar:5.0.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.yaml:snakeyaml:jar:2.2:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.yaml:snakeyaml:jar:2.2:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.yaml:snakeyaml:jar:2.2:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.yaml:snakeyaml:jar:2.2:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.amqp:spring-rabbit:jar:3.1.3:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.amqp:spring-rabbit:jar:3.1.3:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.amqp:spring-rabbit:jar:3.1.3:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.amqp:spring-rabbit:jar:3.1.3:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.jboss.logging:jboss-logging:jar:3.5.3.Final:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.jboss.logging:jboss-logging:jar:3.5.3.Final:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.jboss.logging:jboss-logging:jar:3.5.3.Final:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.jboss.logging:jboss-logging:jar:3.5.3.Final:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-beans:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-beans:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-beans:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-beans:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-messaging:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-messaging:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-messaging:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-messaging:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.data:spring-data-commons:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.data:spring-data-commons:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.data:spring-data-commons:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.data:spring-data-commons:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.checkerframework:checker-qual:jar:3.31.0:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.checkerframework:checker-qual:jar:3.31.0:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.checkerframework:checker-qual:jar:3.31.0:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.checkerframework:checker-qual:jar:3.31.0:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.data:spring-data-jpa:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.data:spring-data-jpa:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.data:spring-data-jpa:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.data:spring-data-jpa:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.rabbitmq:amqp-client:jar:5.19.0:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.rabbitmq:amqp-client:jar:5.19.0:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: com.rabbitmq:amqp-client:jar:5.19.0:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: com.rabbitmq:amqp-client:jar:5.19.0:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: io.smallrye:jandex:jar:3.1.2:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: io.smallrye:jandex:jar:3.1.2:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: io.smallrye:jandex:jar:3.1.2:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: io.smallrye:jandex:jar:3.1.2:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-aop:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-aop:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-aop:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-aop:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:txw2:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.glassfish.jaxb:txw2:jar:4.0.5:runtime (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.glassfish.jaxb:txw2:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.glassfish.jaxb:txw2:jar:4.0.5:runtime (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-jcl:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-jcl:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-jcl:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-jcl:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.aspectj:aspectjweaver:jar:1.9.21:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.aspectj:aspectjweaver:jar:1.9.21:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.aspectj:aspectjweaver:jar:1.9.21:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.aspectj:aspectjweaver:jar:1.9.21:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.amqp:spring-amqp:jar:3.1.3:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.amqp:spring-amqp:jar:3.1.3:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.amqp:spring-amqp:jar:3.1.3:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.amqp:spring-amqp:jar:3.1.3:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-expression:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-expression:jar:6.1.5:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework:spring-expression:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework:spring-expression:jar:6.1.5:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.hibernate.orm:hibernate-core:jar:6.4.4.Final:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.hibernate.orm:hibernate-core:jar:6.4.4.Final:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.hibernate.orm:hibernate-core:jar:6.4.4.Final:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.hibernate.orm:hibernate-core:jar:6.4.4.Final:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = false)
+2026.04.15 22:22:47 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = true)
+2026.04.15 22:22:47 INFO  [INFO] Generated .bloop\medisaas-backend-test.json
+2026.04.15 22:22:47 INFO  [INFO] ------------------------------------------------------------------------
+2026.04.15 22:22:47 INFO  [INFO] BUILD SUCCESS
+2026.04.15 22:22:47 INFO  [INFO] ------------------------------------------------------------------------
+2026.04.15 22:22:47 INFO  [INFO] Total time:  7.544 s
+2026.04.15 22:22:47 INFO  [INFO] Finished at: 2026-04-15T22:22:48-06:00
+2026.04.15 22:22:47 INFO  [INFO] ------------------------------------------------------------------------
+2026.04.15 22:22:48 INFO  time: ran 'mvn bloopInstall' in 13s
+2026.04.15 22:22:48 INFO  Attempting to connect to the build server...
+2026.04.15 22:22:48 INFO  No running Bloop server found, starting one.
+2026.04.15 22:22:50 INFO  Starting compilation server
+2026.04.15 22:22:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Proyectos\Citas_medicas\.metals\bsp.trace.json or C:\Users\busqu\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.04.15 22:22:55 INFO  time: Connected to build server in 7.07s
+2026.04.15 22:22:55 INFO  Connected to Build server: Bloop v2.0.19
+2026.04.15 22:22:55 INFO  time: Imported build in 0.27s
+2026.04.15 22:22:55 ERROR Running process 'C:\Program Files\Java\jdk-21\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-21\bin\java" (in directory "C:\Program Files\Java\jdk-21"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:505)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.04.15 22:22:55 ERROR Running process 'C:\Program Files\Java\jdk-21\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-21\bin\java" (in directory "C:\Program Files\Java\jdk-21"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:505)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.04.15 22:23:03 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.15 22:23:14 INFO  time: indexed workspace in 18s
+2026.04.15 22:23:15 INFO  compiling medisaas-backend (4 java sources)
+2026.04.15 22:23:15 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 22:23:15 WARN  javac exited with exit code 2
+2026.04.15 22:23:15 INFO  time: compiled medisaas-backend in 0.41s
+2026.04.15 22:27:42 INFO  Shutting down server
+2026.04.15 22:27:42 INFO  Memory monitor stopped
+2026.04.15 22:27:42 INFO  shutting down Metals
+2026.04.15 22:27:42 INFO  Shut down connection with build server.
+2026.04.15 22:27:43 INFO  Exiting server
