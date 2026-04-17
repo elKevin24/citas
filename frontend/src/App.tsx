@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
+import { LayoutDashboard, Calendar as CalendarIcon, Users, Search, Plus } from 'lucide-react';
 import './index.css';
 
 // Components
 import CommandPalette from './components/CommandPalette';
 import Dashboard from './components/Dashboard';
+import Calendar from './components/Calendar';
+import AppointmentModal from './components/AppointmentModal';
 
 function App() {
   const [isCommandOpen, setIsCommandOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState<'dashboard' | 'calendar' | 'patients'>('dashboard');
 
   // Keyboard listener for CMD+K
   React.useEffect(() => {
@@ -25,20 +30,35 @@ function App() {
       {/* Search Overlay CMD+K */}
       {isCommandOpen && <CommandPalette onClose={() => setIsCommandOpen(false)} />}
       
+      {/* Appointment Modal */}
+      {isModalOpen && <AppointmentModal onClose={() => setIsModalOpen(false)} />}
+
       {/* Sidebar */}
       <aside className="sidebar">
         <div style={{ fontSize: '1.25rem', fontWeight: 600, color: 'var(--primary-color)', marginBottom: '32px' }}>
           MediSaaS
         </div>
         <nav style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-          <button className="btn btn-secondary" style={{ justifyContent: 'flex-start', border: 'none', background: 'var(--secondary-color)' }}>
-            <span role="img" aria-label="Dashboard">📊</span> Dashboard
+          <button 
+            className="btn btn-secondary" 
+            style={{ justifyContent: 'flex-start', border: 'none', background: activeTab === 'dashboard' ? 'var(--secondary-color)' : 'transparent' }}
+            onClick={() => setActiveTab('dashboard')}
+          >
+            <LayoutDashboard size={18} /> Dashboard
           </button>
-          <button className="btn btn-secondary" style={{ justifyContent: 'flex-start', border: 'none' }}>
-            <span role="img" aria-label="Calendar">📅</span> Calendario
+          <button 
+            className="btn btn-secondary" 
+            style={{ justifyContent: 'flex-start', border: 'none', background: activeTab === 'calendar' ? 'var(--secondary-color)' : 'transparent' }}
+            onClick={() => setActiveTab('calendar')}
+          >
+            <CalendarIcon size={18} /> Calendario
           </button>
-          <button className="btn btn-secondary" style={{ justifyContent: 'flex-start', border: 'none' }}>
-            <span role="img" aria-label="Patients">👥</span> Pacientes
+          <button 
+            className="btn btn-secondary" 
+            style={{ justifyContent: 'flex-start', border: 'none', background: activeTab === 'patients' ? 'var(--secondary-color)' : 'transparent' }}
+            onClick={() => setActiveTab('patients')}
+          >
+            <Users size={18} /> Pacientes
           </button>
         </nav>
       </aside>
@@ -46,21 +66,23 @@ function App() {
       {/* Main Content */}
       <main className="main-content">
         <header className="header">
-          <h2>Dashboard</h2>
+          <h2>{activeTab === 'dashboard' ? 'Dashboard' : activeTab === 'calendar' ? 'Calendario' : 'Pacientes'}</h2>
           
           <div className="search-container" onClick={() => setIsCommandOpen(true)}>
-            <span className="search-icon">🔍</span>
+            <Search className="search-icon" size={16} />
             <input 
               type="text" 
               className="search-input" 
-              placeholder="Buscar..." 
+              placeholder="Buscar paciente o cita..." 
               readOnly
             />
             <span className="cmd-k-hint">⌘ K</span>
           </div>
 
-          <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-            <button className="btn btn-primary">+ Nueva Cita</button>
+          <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
+            <button className="btn btn-primary" onClick={() => setIsModalOpen(true)}>
+              <Plus size={18} /> Nueva Cita
+            </button>
             <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'var(--primary-color)', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
               DR
             </div>
@@ -68,7 +90,9 @@ function App() {
         </header>
 
         <section className="content-area">
-          <Dashboard />
+          {activeTab === 'dashboard' && <Dashboard />}
+          {activeTab === 'calendar' && <Calendar />}
+          {activeTab === 'patients' && <div className="card"><h3>Directorio de Pacientes</h3><p>Módulo en construcción...</p></div>}
         </section>
       </main>
     </div>

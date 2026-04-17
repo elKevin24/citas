@@ -46,8 +46,7 @@ public class AppointmentController {
     public ResponseEntity<List<AppointmentResponse>> listAppointments(
             @PathVariable UUID organizationId,
             @PathVariable UUID branchId) {
-        // Todo: Implement list in AppointmentService
-        return ResponseEntity.ok(List.of());
+        return ResponseEntity.ok(appointmentService.listAppointments(organizationId, branchId));
     }
 
     @GetMapping("/search")

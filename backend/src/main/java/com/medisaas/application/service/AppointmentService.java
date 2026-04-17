@@ -71,4 +71,13 @@ public class AppointmentService {
         // 6. Devolver el contrato cerrado al controlador Web
         return appointmentMapper.toResponse(savedDomain);
     }
+
+    @Transactional(readOnly = true)
+    public List<AppointmentResponse> listAppointments(UUID organizationId, UUID branchId) {
+        return appointmentRepository.findAllByOrganizationIdAndBranchId(organizationId, branchId)
+                .stream()
+                .map(appointmentMapper::toDomain)
+                .map(appointmentMapper::toResponse)
+                .toList();
+    }
 }

@@ -25,4 +25,6 @@ public interface AppointmentRepository extends JpaRepository<AppointmentEntity, 
             @Param("doctorId") UUID doctorId,
             @Param("startTime") ZonedDateTime startTime,
             @Param("endTime") ZonedDateTime endTime);
+
+    List<AppointmentEntity> findAllByOrganizationIdAndBranchId(UUID organizationId, UUID branchId);
 }

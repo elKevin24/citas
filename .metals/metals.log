@@ -1278,3 +1278,138 @@ Usage: javac <options> <source files>
 use --help for a list of possible options.
 2026.04.15 22:28:31 WARN  javac exited with exit code 2
 2026.04.15 22:28:31 INFO  time: compiled medisaas-backend in 0.27s
+2026.04.15 22:46:42 INFO  compiling medisaas-backend (5 java sources)
+2026.04.15 22:46:42 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 22:46:42 WARN  javac exited with exit code 2
+2026.04.15 22:46:42 INFO  time: compiled medisaas-backend in 0.34s
+2026.04.15 22:47:23 INFO  compiling medisaas-backend (6 java sources)
+2026.04.15 22:47:23 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 22:47:23 WARN  javac exited with exit code 2
+2026.04.15 22:47:23 INFO  time: compiled medisaas-backend in 0.39s
+2026.04.15 22:47:25 INFO  compiling medisaas-backend (7 java sources)
+2026.04.15 22:47:25 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 22:47:25 WARN  javac exited with exit code 2
+2026.04.15 22:47:25 INFO  time: compiled medisaas-backend in 0.35s
+2026.04.15 22:47:37 INFO  compiling medisaas-backend (8 java sources)
+2026.04.15 22:47:37 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 22:47:37 WARN  javac exited with exit code 2
+2026.04.15 22:47:37 INFO  time: compiled medisaas-backend in 0.37s
+2026.04.15 22:47:58 INFO  compiling medisaas-backend (8 java sources)
+2026.04.15 22:47:58 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 22:47:58 WARN  javac exited with exit code 2
+2026.04.15 22:47:58 INFO  time: compiled medisaas-backend in 0.38s
+2026.04.15 22:48:12 INFO  compiling medisaas-backend (8 java sources)
+2026.04.15 22:48:12 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 22:48:12 WARN  javac exited with exit code 2
+2026.04.15 22:48:12 INFO  time: compiled medisaas-backend in 0.3s
+2026.04.15 22:51:27 INFO  compiling medisaas-backend (9 java sources)
+2026.04.15 22:51:27 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 22:51:27 WARN  javac exited with exit code 2
+2026.04.15 22:51:27 INFO  time: compiled medisaas-backend in 0.32s
+2026.04.15 22:51:39 INFO  compiling medisaas-backend (9 java sources)
+2026.04.15 22:51:39 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 22:51:39 WARN  javac exited with exit code 2
+2026.04.15 22:51:39 INFO  time: compiled medisaas-backend in 0.3s
+2026.04.15 22:51:47 INFO  compiling medisaas-backend (9 java sources)
+2026.04.15 22:51:47 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 22:51:47 WARN  javac exited with exit code 2
+2026.04.15 22:51:47 INFO  time: compiled medisaas-backend in 0.29s
+2026.04.15 23:17:44 INFO  compiling medisaas-backend (10 java sources)
+2026.04.15 23:17:44 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 23:17:44 WARN  javac exited with exit code 2
+2026.04.15 23:17:44 INFO  time: compiled medisaas-backend in 0.34s
+2026.04.15 23:17:46 INFO  compiling medisaas-backend (11 java sources)
+2026.04.15 23:17:46 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 23:17:46 WARN  javac exited with exit code 2
+2026.04.15 23:17:46 INFO  time: compiled medisaas-backend in 0.35s
+2026.04.15 23:17:56 INFO  compiling medisaas-backend (11 java sources)
+2026.04.15 23:17:56 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.15 23:17:56 WARN  javac exited with exit code 2
+2026.04.15 23:17:56 INFO  time: compiled medisaas-backend in 0.32s
+abr. 15, 2026 11:23:10 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+abr. 15, 2026 11:53:12 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.04.16 00:02:28 INFO  compiling medisaas-backend (11 java sources)
+2026.04.16 00:02:28 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 00:02:28 WARN  javac exited with exit code 2
+2026.04.16 00:02:28 INFO  time: compiled medisaas-backend in 0.3s
+2026.04.16 00:02:39 INFO  compiling medisaas-backend (11 java sources)
+2026.04.16 00:02:39 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 00:02:39 WARN  javac exited with exit code 2
+2026.04.16 00:02:39 INFO  time: compiled medisaas-backend in 0.28s
+2026.04.16 00:06:25 INFO  compiling medisaas-backend (11 java sources)
+2026.04.16 00:06:25 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 00:06:25 WARN  javac exited with exit code 2
+2026.04.16 00:06:25 INFO  time: compiled medisaas-backend in 0.3s
+2026.04.16 00:06:55 INFO  compiling medisaas-backend (11 java sources)
+2026.04.16 00:06:55 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 00:06:55 WARN  javac exited with exit code 2
+2026.04.16 00:06:55 INFO  time: compiled medisaas-backend in 0.5s
+2026.04.16 00:09:22 INFO  compiling medisaas-backend (12 java sources)
+2026.04.16 00:09:22 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 00:09:22 WARN  javac exited with exit code 2
+2026.04.16 00:09:22 INFO  time: compiled medisaas-backend in 0.34s
+2026.04.16 00:09:24 INFO  compiling medisaas-backend (13 java sources)
+2026.04.16 00:09:24 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 00:09:24 WARN  javac exited with exit code 2
+2026.04.16 00:09:24 INFO  time: compiled medisaas-backend in 0.32s
+2026.04.16 00:09:32 INFO  compiling medisaas-backend (14 java sources)
+2026.04.16 00:09:32 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 00:09:32 WARN  javac exited with exit code 2
+2026.04.16 00:09:32 INFO  time: compiled medisaas-backend in 0.35s
+2026.04.16 00:23:02 INFO  compiling medisaas-backend (15 java sources)
+2026.04.16 00:23:02 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 00:23:02 WARN  javac exited with exit code 2
+2026.04.16 00:23:02 INFO  time: compiled medisaas-backend in 0.29s
+2026.04.16 00:23:04 INFO  compiling medisaas-backend (16 java sources)
+2026.04.16 00:23:04 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 00:23:04 WARN  javac exited with exit code 2
+2026.04.16 00:23:04 INFO  time: compiled medisaas-backend in 0.32s
+2026.04.16 00:24:47 INFO  Shutting down server
+2026.04.16 00:24:47 INFO  Memory monitor stopped
+2026.04.16 00:24:47 INFO  shutting down Metals
+2026.04.16 00:24:47 INFO  Shut down connection with build server.
+2026.04.16 00:24:47 INFO  Exiting server

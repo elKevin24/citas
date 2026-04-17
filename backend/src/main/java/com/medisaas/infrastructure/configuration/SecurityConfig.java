@@ -22,10 +22,11 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
             .csrf(AbstractHttpConfigurer::disable)
-            .cors(AbstractHttpConfigurer::disable) // Desactivado para Scaffold local, configurar en prod
+            .cors(org.springframework.security.config.Customizer.withDefaults()) // Permite CORS con Vite
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/api/v1/auth/**").permitAll() // Endpoints de logueo excluidos
-                .requestMatchers("/actuator/**").permitAll()    // Actuator excluido para testing de salud
+                .requestMatchers("/api/v1/auth/**").permitAll()
+                .requestMatchers("/actuator/**").permitAll()
+                .requestMatchers("/api/v1/organizations/**").permitAll() // TEMPORAL: Permitir endpoints para E2E dev frontend
                 .anyRequest().authenticated()
             )
             .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))

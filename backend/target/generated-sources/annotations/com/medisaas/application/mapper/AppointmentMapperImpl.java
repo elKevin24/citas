@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-04-16T00:19:30-0600",
+    date = "2026-04-16T22:24:37-0600",
     comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.46.0.v20260407-0427, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
@@ -30,13 +30,13 @@ public class AppointmentMapperImpl implements AppointmentMapper {
         if ( request != null ) {
             appointment.branchId( request.branchId() );
             appointment.doctorId( request.doctorId() );
+            appointment.patientId( request.patientId() );
+            appointment.startTime( request.startTime() );
             appointment.endTime( request.endTime() );
             Map<String, Object> map = request.metadata();
             if ( map != null ) {
                 appointment.metadata( new LinkedHashMap<String, Object>( map ) );
             }
-            appointment.patientId( request.patientId() );
-            appointment.startTime( request.startTime() );
         }
         appointment.organizationId( organizationId );
         appointment.status( Appointment.AppointmentStatus.PENDING );
@@ -52,21 +52,21 @@ public class AppointmentMapperImpl implements AppointmentMapper {
 
         AppointmentEntity.AppointmentEntityBuilder appointmentEntity = AppointmentEntity.builder();
 
+        appointmentEntity.id( domain.getId() );
+        appointmentEntity.organizationId( domain.getOrganizationId() );
         appointmentEntity.branchId( domain.getBranchId() );
         appointmentEntity.doctorId( domain.getDoctorId() );
-        appointmentEntity.endTime( domain.getEndTime() );
-        appointmentEntity.id( domain.getId() );
-        Map<String, Object> map = domain.getMetadata();
-        if ( map != null ) {
-            appointmentEntity.metadata( new LinkedHashMap<String, Object>( map ) );
-        }
-        appointmentEntity.organizationId( domain.getOrganizationId() );
         appointmentEntity.patientId( domain.getPatientId() );
         appointmentEntity.startTime( domain.getStartTime() );
+        appointmentEntity.endTime( domain.getEndTime() );
         if ( domain.getStatus() != null ) {
             appointmentEntity.status( domain.getStatus().name() );
         }
         appointmentEntity.version( domain.getVersion() );
+        Map<String, Object> map = domain.getMetadata();
+        if ( map != null ) {
+            appointmentEntity.metadata( new LinkedHashMap<String, Object>( map ) );
+        }
 
         return appointmentEntity.build();
     }
@@ -79,21 +79,21 @@ public class AppointmentMapperImpl implements AppointmentMapper {
 
         Appointment.AppointmentBuilder appointment = Appointment.builder();
 
+        appointment.id( entity.getId() );
+        appointment.organizationId( entity.getOrganizationId() );
         appointment.branchId( entity.getBranchId() );
         appointment.doctorId( entity.getDoctorId() );
-        appointment.endTime( entity.getEndTime() );
-        appointment.id( entity.getId() );
-        Map<String, Object> map = entity.getMetadata();
-        if ( map != null ) {
-            appointment.metadata( new LinkedHashMap<String, Object>( map ) );
-        }
-        appointment.organizationId( entity.getOrganizationId() );
         appointment.patientId( entity.getPatientId() );
         appointment.startTime( entity.getStartTime() );
+        appointment.endTime( entity.getEndTime() );
         if ( entity.getStatus() != null ) {
             appointment.status( Enum.valueOf( Appointment.AppointmentStatus.class, entity.getStatus() ) );
         }
         appointment.version( entity.getVersion() );
+        Map<String, Object> map = entity.getMetadata();
+        if ( map != null ) {
+            appointment.metadata( new LinkedHashMap<String, Object>( map ) );
+        }
 
         return appointment.build();
     }
