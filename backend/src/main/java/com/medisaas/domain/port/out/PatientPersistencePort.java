@@ -9,4 +9,5 @@ public interface PatientPersistencePort {
     Patient save(Patient patient);
     Optional<Patient> findByIdAndOrganizationId(UUID id, UUID organizationId);
     List<Patient> findAllByOrganizationId(UUID organizationId);
+    List<Patient> searchByQuery(String query, UUID organizationId);
 }

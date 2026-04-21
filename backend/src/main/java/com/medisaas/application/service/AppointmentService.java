@@ -80,4 +80,13 @@ public class AppointmentService {
                 .map(appointmentMapper::toResponse)
                 .toList();
     }
+
+    @Transactional(readOnly = true)
+    public List<AppointmentResponse> searchAppointments(UUID organizationId, String query) {
+        return appointmentRepository.searchByPatientName(organizationId, query)
+                .stream()
+                .map(appointmentMapper::toDomain)
+                .map(appointmentMapper::toResponse)
+                .toList();
+    }
 }

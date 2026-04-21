@@ -7,6 +7,7 @@ import CommandPalette from './components/CommandPalette';
 import Dashboard from './components/Dashboard';
 import Calendar from './components/Calendar';
 import AppointmentModal from './components/AppointmentModal';
+import PatientList from './components/PatientList';
 
 function App() {
   const [isCommandOpen, setIsCommandOpen] = useState(false);
@@ -92,7 +93,7 @@ function App() {
         <section className="content-area">
           {activeTab === 'dashboard' && <Dashboard />}
           {activeTab === 'calendar' && <Calendar />}
-          {activeTab === 'patients' && <div className="card"><h3>Directorio de Pacientes</h3><p>Módulo en construcción...</p></div>}
+          {activeTab === 'patients' && <PatientList />}
         </section>
       </main>
     </div>

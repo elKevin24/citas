@@ -23,6 +23,7 @@ public class PatientController {
 
     private final CreatePatientUseCase createPatientUseCase;
     private final GetPatientUseCase getPatientUseCase;
+    private final com.medisaas.domain.port.in.SearchPatientUseCase searchPatientUseCase;
     private final PatientMapper mapper;
 
     @PostMapping
@@ -51,5 +52,15 @@ public class PatientController {
             @PathVariable UUID id) {
         Patient patient = getPatientUseCase.getPatientById(id, organizationId);
         return ResponseEntity.ok(mapper.toResponse(patient));
+    }
+
+    @GetMapping("/search")
+    public ResponseEntity<List<PatientResponse>> searchPatients(
+            @PathVariable UUID organizationId,
+            @RequestParam String query) {
+        List<PatientResponse> responses = searchPatientUseCase.searchPatients(query, organizationId).stream()
+                .map(mapper::toResponse)
+                .collect(Collectors.toList());
+        return ResponseEntity.ok(responses);
     }
 }

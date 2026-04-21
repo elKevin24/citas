@@ -12,6 +12,12 @@ const ORG_ID = '11111111-1111-1111-1111-111111111111';
 const BRANCH_ID = '22222222-2222-2222-2222-222222222222';
 const DOCTOR_ID = '33333333-3333-3333-3333-333333333333'; // Default seeded doctor
 
+export const searchPatients = async (query: string): Promise<Patient[]> => {
+  const res = await fetch(`/api/v1/organizations/${ORG_ID}/patients/search?query=${encodeURIComponent(query)}`);
+  if (!res.ok) throw new Error('Error al buscar pacientes');
+  return res.json();
+};
+
 export const getPatients = async (): Promise<Patient[]> => {
   const res = await fetch(`/api/v1/organizations/${ORG_ID}/patients`);
   if (!res.ok) throw new Error('Error al cargar pacientes');

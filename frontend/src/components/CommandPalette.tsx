@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { searchPatients, Patient } from '../api/appointments';
 
 interface CommandPaletteProps {
   onClose: () => void;
@@ -6,6 +7,7 @@ interface CommandPaletteProps {
 
 const CommandPalette: React.FC<CommandPaletteProps> = ({ onClose }) => {
   const [query, setQuery] = useState('');
+  const [results, setResults] = useState<{ type: string; name: string; detail: string }[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
 
   // Focus input on mount
@@ -13,12 +15,35 @@ const CommandPalette: React.FC<CommandPaletteProps> = ({ onClose }) => {
     inputRef.current?.focus();
   }, []);
 
-  const dummyResults = [
-    { type: 'paciente', name: 'Carlos Gomez', detail: 'ID: 9876543' },
-    { type: 'paciente', name: 'Ana Torres', detail: 'ID: 1234567' },
-    { type: 'acción', name: 'Agendar Nueva Cita', detail: 'Ir al calendario' },
-    { type: 'ajustes', name: 'Configuración de Sucursal', detail: 'Administración' }
-  ].filter(item => item.name.toLowerCase().includes(query.toLowerCase()));
+  useEffect(() => {
+    const fetchResults = async () => {
+      if (query.length < 2) {
+        setResults([]);
+        return;
+      }
+      try {
+        const patients = await searchPatients(query);
+        const mappedResults = patients.map(p => ({
+          type: 'paciente',
+          name: `${p.firstName} ${p.lastName}`,
+          detail: `Tel: ${p.phone || 'N/A'}`
+        }));
+        
+        // Add static commands if query matches
+        const commands = [
+          { type: 'acción', name: 'Agendar Nueva Cita', detail: 'Abrir modal de cita' },
+          { type: 'ajustes', name: 'Configuración', detail: 'Ir a ajustes' }
+        ].filter(c => c.name.toLowerCase().includes(query.toLowerCase()));
+
+        setResults([...mappedResults, ...commands]);
+      } catch (err) {
+        console.error('Search failed', err);
+      }
+    };
+
+    const timer = setTimeout(fetchResults, 300);
+    return () => clearTimeout(timer);
+  }, [query]);
 
   return (
     <div 
@@ -64,18 +89,18 @@ const CommandPalette: React.FC<CommandPaletteProps> = ({ onClose }) => {
         </div>
         
         <div style={{ maxHeight: '300px', overflowY: 'auto' }}>
-          {query.length > 0 && dummyResults.length === 0 && (
+          {query.length > 0 && results.length === 0 && (
             <div style={{ padding: '32px', textAlign: 'center', color: 'var(--text-secondary)' }}>
               No se encontraron resultados para "{query}"
             </div>
           )}
           
-          {dummyResults.length > 0 && (
+          {results.length > 0 && (
             <div style={{ padding: '8px' }}>
               <div style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-secondary)', padding: '8px 16px', textTransform: 'uppercase' }}>
                 Resultados
               </div>
-              {dummyResults.map((result, idx) => (
+              {results.map((result, idx) => (
                 <div 
                   key={idx} 
                   style={{

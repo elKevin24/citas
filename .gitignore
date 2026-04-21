@@ -1,0 +1,17 @@
+# Build and binary files
+**/target/
+**/dist/
+**/node_modules/
+*.class
+
+# IDE files
+.idea/
+.vscode/
+.metals/
+.bloop/
+*.swp
+*.log
+
+# Env files
+.env
+.env.*

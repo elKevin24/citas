@@ -27,4 +27,10 @@ public interface AppointmentRepository extends JpaRepository<AppointmentEntity, 
             @Param("endTime") ZonedDateTime endTime);
 
     List<AppointmentEntity> findAllByOrganizationIdAndBranchId(UUID organizationId, UUID branchId);
+    
+    @Query("SELECT a FROM AppointmentEntity a JOIN PatientEntity p ON a.patientId = p.id " +
+           "WHERE a.organizationId = :organizationId AND " +
+           "(LOWER(p.firstName) LIKE LOWER(CONCAT('%', :query, '%')) OR " +
+           "LOWER(p.lastName) LIKE LOWER(CONCAT('%', :query, '%')))")
+    List<AppointmentEntity> searchByPatientName(UUID organizationId, String query);
 }

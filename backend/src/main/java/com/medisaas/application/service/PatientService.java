@@ -3,6 +3,7 @@ package com.medisaas.application.service;
 import com.medisaas.domain.model.Patient;
 import com.medisaas.domain.port.in.CreatePatientUseCase;
 import com.medisaas.domain.port.in.GetPatientUseCase;
+import com.medisaas.domain.port.in.SearchPatientUseCase;
 import com.medisaas.domain.port.out.PatientPersistencePort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -12,7 +13,7 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
-public class PatientService implements CreatePatientUseCase, GetPatientUseCase {
+public class PatientService implements CreatePatientUseCase, GetPatientUseCase, SearchPatientUseCase {
 
     private final PatientPersistencePort persistencePort;
 
@@ -31,5 +32,10 @@ public class PatientService implements CreatePatientUseCase, GetPatientUseCase {
     public Patient getPatientById(UUID id, UUID organizationId) {
         return persistencePort.findByIdAndOrganizationId(id, organizationId)
                 .orElseThrow(() -> new RuntimeException("Paciente no encontrado"));
+    }
+
+    @Override
+    public List<Patient> searchPatients(String query, UUID organizationId) {
+        return persistencePort.searchByQuery(query, organizationId);
     }
 }

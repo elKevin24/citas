@@ -53,7 +53,6 @@ public class AppointmentController {
     public ResponseEntity<List<AppointmentResponse>> searchAppointments(
             @PathVariable UUID organizationId,
             @RequestParam String query) {
-        // Todo: CMD+K Search Logic
-        return ResponseEntity.ok(List.of());
+        return ResponseEntity.ok(appointmentService.searchAppointments(organizationId, query));
     }
 }

@@ -40,4 +40,11 @@ public class PatientPersistenceAdapter implements PatientPersistencePort {
                 .map(mapper::toDomain)
                 .collect(Collectors.toList());
     }
+
+    @Override
+    public List<Patient> searchByQuery(String query, UUID organizationId) {
+        return repository.searchByQuery(organizationId, query).stream()
+                .map(mapper::toDomain)
+                .collect(Collectors.toList());
+    }
 }

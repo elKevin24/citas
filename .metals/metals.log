@@ -1413,3 +1413,761 @@ use --help for a list of possible options.
 2026.04.16 00:24:47 INFO  shutting down Metals
 2026.04.16 00:24:47 INFO  Shut down connection with build server.
 2026.04.16 00:24:47 INFO  Exiting server
+2026.04.16 21:30:16 INFO  Started: Metals version 1.6.7 in folders 'D:\Proyectos\Citas_medicas' for client Antigravity 1.107.0.
+2026.04.16 21:30:16 INFO  Memory monitor started
+2026.04.16 21:30:17 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.16 21:30:18 INFO  Attempting to connect to the build server...
+2026.04.16 21:30:18 INFO  No running Bloop server found, starting one.
+2026.04.16 21:30:21 INFO  Starting compilation server
+2026.04.16 21:30:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Proyectos\Citas_medicas\.metals\bsp.trace.json or C:\Users\busqu\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.04.16 21:30:25 INFO  time: Connected to build server in 7.55s
+2026.04.16 21:30:25 INFO  Connected to Build server: Bloop v2.0.19
+2026.04.16 21:30:25 INFO  time: Imported build in 0.16s
+2026.04.16 21:30:25 ERROR Running process 'C:\Program Files\Java\jdk-21\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-21\bin\java" (in directory "C:\Program Files\Java\jdk-21"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:505)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.04.16 21:30:25 ERROR Running process 'C:\Program Files\Java\jdk-21\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-21\bin\java" (in directory "C:\Program Files\Java\jdk-21"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:505)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.04.16 21:30:30 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.16 21:30:34 INFO  time: indexed workspace in 8.53s
+2026.04.16 21:30:35 INFO  compiling medisaas-backend (16 java sources)
+2026.04.16 21:30:35 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 21:30:35 WARN  javac exited with exit code 2
+2026.04.16 21:30:35 INFO  time: compiled medisaas-backend in 0.4s
+2026.04.16 22:24:19 INFO  compiling medisaas-backend (17 java sources)
+2026.04.16 22:24:19 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:24:19 WARN  javac exited with exit code 2
+2026.04.16 22:24:19 INFO  time: compiled medisaas-backend in 0.35s
+2026.04.16 22:24:27 INFO  compiling medisaas-backend (18 java sources)
+2026.04.16 22:24:27 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:24:27 WARN  javac exited with exit code 2
+2026.04.16 22:24:27 INFO  time: compiled medisaas-backend in 0.43s
+2026.04.16 22:24:36 INFO  compiling medisaas-backend (19 java sources)
+2026.04.16 22:24:36 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:24:36 WARN  javac exited with exit code 2
+2026.04.16 22:24:36 INFO  time: compiled medisaas-backend in 0.35s
+2026.04.16 22:24:45 INFO  compiling medisaas-backend (20 java sources)
+2026.04.16 22:24:45 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:24:45 WARN  javac exited with exit code 2
+2026.04.16 22:24:45 INFO  time: compiled medisaas-backend in 0.36s
+2026.04.16 22:24:54 INFO  compiling medisaas-backend (21 java sources)
+2026.04.16 22:24:54 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:24:54 WARN  javac exited with exit code 2
+2026.04.16 22:24:54 INFO  time: compiled medisaas-backend in 0.32s
+2026.04.16 22:25:01 INFO  compiling medisaas-backend (22 java sources)
+2026.04.16 22:25:01 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:25:01 WARN  javac exited with exit code 2
+2026.04.16 22:25:01 INFO  time: compiled medisaas-backend in 0.35s
+2026.04.16 22:25:11 INFO  compiling medisaas-backend (23 java sources)
+2026.04.16 22:25:11 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:25:11 WARN  javac exited with exit code 2
+2026.04.16 22:25:11 INFO  time: compiled medisaas-backend in 0.36s
+2026.04.16 22:25:19 INFO  compiling medisaas-backend (24 java sources)
+2026.04.16 22:25:19 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:25:19 WARN  javac exited with exit code 2
+2026.04.16 22:25:19 INFO  time: compiled medisaas-backend in 0.36s
+2026.04.16 22:25:28 INFO  compiling medisaas-backend (25 java sources)
+2026.04.16 22:25:28 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:25:28 WARN  javac exited with exit code 2
+2026.04.16 22:25:28 INFO  time: compiled medisaas-backend in 0.32s
+2026.04.16 22:25:38 INFO  compiling medisaas-backend (26 java sources)
+2026.04.16 22:25:38 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:25:38 WARN  javac exited with exit code 2
+2026.04.16 22:25:38 INFO  time: compiled medisaas-backend in 0.32s
+2026.04.16 22:25:57 INFO  compiling medisaas-backend (27 java sources)
+2026.04.16 22:25:57 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:25:57 WARN  javac exited with exit code 2
+2026.04.16 22:25:57 INFO  time: compiled medisaas-backend in 0.34s
+2026.04.16 22:28:25 INFO  compiling medisaas-backend (27 java sources)
+2026.04.16 22:28:25 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:28:25 WARN  javac exited with exit code 2
+2026.04.16 22:28:25 INFO  time: compiled medisaas-backend in 0.29s
+2026.04.16 22:29:40 INFO  compiling medisaas-backend (27 java sources)
+2026.04.16 22:29:40 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:29:40 WARN  javac exited with exit code 2
+2026.04.16 22:29:40 INFO  time: compiled medisaas-backend in 0.25s
+2026.04.16 22:29:54 INFO  compiling medisaas-backend (27 java sources)
+2026.04.16 22:29:54 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:29:54 WARN  javac exited with exit code 2
+2026.04.16 22:29:54 INFO  time: compiled medisaas-backend in 0.27s
+2026.04.16 22:30:03 INFO  compiling medisaas-backend (27 java sources)
+2026.04.16 22:30:03 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 22:30:03 WARN  javac exited with exit code 2
+2026.04.16 22:30:03 INFO  time: compiled medisaas-backend in 0.3s
+2026.04.16 23:32:11 INFO  Shutting down server
+2026.04.16 23:32:11 INFO  Memory monitor stopped
+2026.04.16 23:32:11 INFO  shutting down Metals
+2026.04.16 23:32:11 INFO  Shut down connection with build server.
+2026.04.16 23:32:11 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2026.04.16 23:32:11 INFO  Exiting server
+2026.04.16 23:32:47 INFO  Started: Metals version 1.6.7 in folders 'D:\Proyectos\Citas_medicas' for client Antigravity 1.107.0.
+2026.04.16 23:32:47 INFO  Memory monitor started
+2026.04.16 23:32:48 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.16 23:32:49 INFO  Attempting to connect to the build server...
+2026.04.16 23:32:49 INFO  Found a Bloop server running
+2026.04.16 23:32:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Proyectos\Citas_medicas\.metals\bsp.trace.json or C:\Users\busqu\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.04.16 23:32:49 INFO  time: Connected to build server in 0.64s
+2026.04.16 23:32:49 INFO  Connected to Build server: Bloop v2.0.19
+2026.04.16 23:32:50 INFO  time: Imported build in 0.18s
+2026.04.16 23:32:50 ERROR Running process 'C:\Program Files\Java\jdk-21\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-21\bin\java" (in directory "C:\Program Files\Java\jdk-21"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:505)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.04.16 23:32:50 ERROR Running process 'C:\Program Files\Java\jdk-21\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-21\bin\java" (in directory "C:\Program Files\Java\jdk-21"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:505)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.04.16 23:32:57 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.16 23:33:03 INFO  time: indexed workspace in 13s
+2026.04.16 23:33:03 INFO  compiling medisaas-backend (27 java sources)
+2026.04.16 23:33:03 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.16 23:33:03 WARN  javac exited with exit code 2
+2026.04.16 23:33:03 INFO  time: compiled medisaas-backend in 0.37s
+2026.04.16 23:33:23 INFO  Shutting down server
+2026.04.16 23:33:23 INFO  Memory monitor stopped
+2026.04.16 23:33:23 INFO  shutting down Metals
+2026.04.16 23:33:23 INFO  Shut down connection with build server.
+2026.04.16 23:33:23 INFO  Exiting server
+2026.04.20 22:13:52 INFO  Started: Metals version 1.6.7 in folders 'D:\Proyectos\Citas_medicas' for client Antigravity 1.107.0.
+2026.04.20 22:13:52 INFO  Memory monitor started
+2026.04.20 22:13:54 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.20 22:13:55 INFO  Attempting to connect to the build server...
+2026.04.20 22:13:55 INFO  No running Bloop server found, starting one.
+2026.04.20 22:13:59 INFO  Starting compilation server
+2026.04.20 22:14:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Proyectos\Citas_medicas\.metals\bsp.trace.json or C:\Users\busqu\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.04.20 22:14:04 INFO  time: Connected to build server in 9.42s
+2026.04.20 22:14:04 INFO  Connected to Build server: Bloop v2.0.19
+2026.04.20 22:14:04 INFO  time: Imported build in 0.19s
+2026.04.20 22:14:04 ERROR Running process 'C:\Program Files\Java\jdk-21\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-21\bin\java" (in directory "C:\Program Files\Java\jdk-21"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:505)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.04.20 22:14:04 ERROR Running process 'C:\Program Files\Java\jdk-21\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-21\bin\java" (in directory "C:\Program Files\Java\jdk-21"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:505)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:609)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:602)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.04.20 22:14:11 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.20 22:14:15 INFO  time: indexed workspace in 10s
+2026.04.20 22:14:16 INFO  compiling medisaas-backend (27 java sources)
+2026.04.20 22:14:16 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.20 22:14:16 WARN  javac exited with exit code 2
+2026.04.20 22:14:16 INFO  time: compiled medisaas-backend in 0.45s
+2026.04.20 22:23:20 INFO  compiling medisaas-backend (28 java sources)
+2026.04.20 22:23:20 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.20 22:23:20 WARN  javac exited with exit code 2
+2026.04.20 22:23:20 INFO  time: compiled medisaas-backend in 0.63s
+2026.04.20 22:23:28 INFO  compiling medisaas-backend (28 java sources)
+2026.04.20 22:23:28 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.20 22:23:28 WARN  javac exited with exit code 2
+2026.04.20 22:23:28 INFO  time: compiled medisaas-backend in 0.27s
+2026.04.20 22:23:36 INFO  compiling medisaas-backend (28 java sources)
+2026.04.20 22:23:36 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.20 22:23:36 WARN  javac exited with exit code 2
+2026.04.20 22:23:36 INFO  time: compiled medisaas-backend in 0.26s
+2026.04.20 22:23:46 INFO  compiling medisaas-backend (28 java sources)
+2026.04.20 22:23:46 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.20 22:23:46 WARN  javac exited with exit code 2
+2026.04.20 22:23:46 INFO  time: compiled medisaas-backend in 0.27s
+2026.04.20 22:23:57 INFO  compiling medisaas-backend (28 java sources)
+2026.04.20 22:23:57 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.20 22:23:57 WARN  javac exited with exit code 2
+2026.04.20 22:23:57 INFO  time: compiled medisaas-backend in 0.27s
+2026.04.20 22:24:11 INFO  compiling medisaas-backend (28 java sources)
+2026.04.20 22:24:11 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.20 22:24:11 WARN  javac exited with exit code 2
+2026.04.20 22:24:11 INFO  time: compiled medisaas-backend in 0.28s
+2026.04.20 22:25:33 INFO  compiling medisaas-backend (28 java sources)
+2026.04.20 22:25:33 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.20 22:25:33 WARN  javac exited with exit code 2
+2026.04.20 22:25:33 INFO  time: compiled medisaas-backend in 0.27s
+2026.04.20 22:25:44 INFO  Created report: Optional[file:///D:/Proyectos/Citas_medicas/backend/src/main/java/com/medisaas/application/service/AppointmentService.java]
+2026.04.20 22:25:44 INFO  compiling medisaas-backend (28 java sources)
+2026.04.20 22:25:44 INFO  QDox parse error in file:///D:/Proyectos/Citas_medicas/backend/src/main/java/com/medisaas/application/service/AppointmentService.java (full report at: "D:\Proyectos\Citas_medicas\.metals\.reports\metals-full\2026-04-20\r_qdox-error_(medisaas-backend)_22-25-44-334.md")
+2026.04.20 22:25:44 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.20 22:25:44 WARN  javac exited with exit code 2
+2026.04.20 22:25:44 INFO  time: compiled medisaas-backend in 0.31s
+2026.04.20 22:26:03 INFO  compiling medisaas-backend (28 java sources)
+2026.04.20 22:26:03 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.20 22:26:03 WARN  javac exited with exit code 2
+2026.04.20 22:26:03 INFO  time: compiled medisaas-backend in 0.32s
