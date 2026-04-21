@@ -31,6 +31,7 @@ public class PatientController {
             @PathVariable UUID organizationId,
             @Valid @RequestBody CreatePatientRequest request) {
 
+        java.util.Objects.requireNonNull(organizationId, "Organization ID cannot be null");
         Patient domain = mapper.toDomain(request, organizationId);
         Patient saved = createPatientUseCase.createPatient(domain, organizationId);
         PatientResponse response = mapper.toResponse(saved);

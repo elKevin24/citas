@@ -9,6 +9,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.UUID;
 import java.util.stream.Collectors;
@@ -23,7 +24,7 @@ public class PatientPersistenceAdapter implements PatientPersistencePort {
     @Override
     public Patient save(Patient patient) {
         PatientEntity entity = mapper.toEntity(patient);
-        PatientEntity saved = repository.save(entity);
+        PatientEntity saved = Objects.requireNonNull(repository.save(entity), "Saved patient entity cannot be null");
         return mapper.toDomain(saved);
     }
 
@@ -43,6 +44,7 @@ public class PatientPersistenceAdapter implements PatientPersistencePort {
 
     @Override
     public List<Patient> searchByQuery(String query, UUID organizationId) {
+        Objects.requireNonNull(organizationId, "organizationId cannot be null");
         return repository.searchByQuery(organizationId, query).stream()
                 .map(mapper::toDomain)
                 .collect(Collectors.toList());
