@@ -24,6 +24,7 @@ public class PatientPersistenceAdapter implements PatientPersistencePort {
     @Override
     public Patient save(Patient patient) {
         PatientEntity entity = mapper.toEntity(patient);
+        @SuppressWarnings("null")
         PatientEntity saved = Objects.requireNonNull(repository.save(entity), "Saved patient entity cannot be null");
         return mapper.toDomain(saved);
     }
