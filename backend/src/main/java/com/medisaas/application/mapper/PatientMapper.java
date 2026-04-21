@@ -18,6 +18,7 @@ public interface PatientMapper {
     Patient toDomain(CreatePatientRequest request, UUID organizationId);
 
     // Mapeos de persistencia
+    @Mapping(target = "createdAt", ignore = true)
     PatientEntity toEntity(Patient domain);
     Patient toDomain(PatientEntity entity);
 

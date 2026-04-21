@@ -2171,3 +2171,27 @@ Usage: javac <options> <source files>
 use --help for a list of possible options.
 2026.04.20 22:26:03 WARN  javac exited with exit code 2
 2026.04.20 22:26:03 INFO  time: compiled medisaas-backend in 0.32s
+abr. 20, 2026 10:27:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2
+2026.04.20 22:31:12 INFO  Created report: Optional[file:///D:/Proyectos/Citas_medicas/backend/src/main/java/com/medisaas/infrastructure/adapter/in/web/PatientController.java]
+2026.04.20 22:31:12 INFO  QDox parse error in file:///D:/Proyectos/Citas_medicas/backend/src/main/java/com/medisaas/infrastructure/adapter/in/web/PatientController.java (full report at: "D:\Proyectos\Citas_medicas\.metals\.reports\metals-full\2026-04-20\r_qdox-error_(medisaas-backend)_22-31-12-230.md")
+2026.04.20 22:31:12 INFO  compiling medisaas-backend (28 java sources)
+2026.04.20 22:31:12 WARN  Unexpected javac output: error: release version 21 not supported
+Usage: javac <options> <source files>
+use --help for a list of possible options.
+2026.04.20 22:31:12 WARN  javac exited with exit code 2
+2026.04.20 22:31:12 INFO  time: compiled medisaas-backend in 0.43s
+2026.04.20 22:36:28 INFO  no build target found for D:\Proyectos\Citas_medicas\backend\target\generated-sources\annotations\com\medisaas\application\mapper\AppointmentMapperImpl.java. Using fallback presentation compiler.
+2026.04.20 22:36:28 INFO  no build target found for D:\Proyectos\Citas_medicas\backend\target\generated-sources\annotations\com\medisaas\application\mapper\AppointmentMapperImpl.java. Using fallback presentation compiler.
+2026.04.20 22:36:28 WARN  no build target for: D:\Proyectos\Citas_medicas\backend\target\generated-sources\annotations\com\medisaas\application\mapper\AppointmentMapperImpl.java
+2026.04.20 22:36:28 INFO  no build target found for D:\Proyectos\Citas_medicas\backend\target\generated-sources\annotations\com\medisaas\application\mapper\AppointmentMapperImpl.java. Using fallback presentation compiler.
+2026.04.20 22:36:28 INFO  no build target found for D:\Proyectos\Citas_medicas\backend\target\generated-sources\annotations\com\medisaas\application\mapper\AppointmentMapperImpl.java. Using fallback presentation compiler.
+2026.04.20 22:36:35 INFO  no build target found for D:\Proyectos\Citas_medicas\backend\target\generated-sources\annotations\com\medisaas\application\mapper\AppointmentMapperImpl.java. Using fallback presentation compiler.
+2026.04.20 22:36:36 INFO  no build target found for D:\Proyectos\Citas_medicas\backend\target\generated-sources\annotations\com\medisaas\application\mapper\AppointmentMapperImpl.java. Using fallback presentation compiler.
+2026.04.20 22:39:12 INFO  no build target found for D:\Proyectos\Citas_medicas\backend\target\generated-sources\annotations\com\medisaas\application\mapper\AppointmentMapperImpl.java. Using fallback presentation compiler.
+2026.04.20 22:39:41 INFO  no build target found for D:\Proyectos\Citas_medicas\backend\target\generated-sources\annotations\com\medisaas\application\mapper\AppointmentMapperImpl.java. Using fallback presentation compiler.
+2026.04.20 22:39:45 INFO  Shutting down server
+2026.04.20 22:39:45 INFO  Memory monitor stopped
+2026.04.20 22:39:45 INFO  shutting down Metals
+2026.04.20 22:39:45 INFO  Shut down connection with build server.
+2026.04.20 22:39:45 INFO  Exiting server
