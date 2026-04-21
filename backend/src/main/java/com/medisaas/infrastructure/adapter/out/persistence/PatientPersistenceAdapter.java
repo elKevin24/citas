@@ -30,6 +30,8 @@ public class PatientPersistenceAdapter implements PatientPersistencePort {
 
     @Override
     public Optional<Patient> findByIdAndOrganizationId(UUID id, UUID organizationId) {
+        Objects.requireNonNull(id, "Patient ID cannot be null");
+        Objects.requireNonNull(organizationId, "Organization ID cannot be null");
         return repository.findById(id)
                 .filter(entity -> entity.getOrganizationId().equals(organizationId))
                 .map(mapper::toDomain);
@@ -37,6 +39,7 @@ public class PatientPersistenceAdapter implements PatientPersistencePort {
 
     @Override
     public List<Patient> findAllByOrganizationId(UUID organizationId) {
+        Objects.requireNonNull(organizationId, "Organization ID cannot be null");
         return repository.findAllByOrganizationId(organizationId).stream()
                 .map(mapper::toDomain)
                 .collect(Collectors.toList());
