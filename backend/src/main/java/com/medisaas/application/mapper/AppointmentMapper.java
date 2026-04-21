@@ -13,15 +13,20 @@ import java.util.UUID;
 public interface AppointmentMapper {
 
     @Mapping(target = "id", ignore = true)
-    @Mapping(target = "status", constant = "PENDING")
+    @Mapping(target = "status", expression = "java(com.medisaas.domain.model.Appointment.AppointmentStatus.PENDING)")
     @Mapping(target = "version", ignore = true)
     @Mapping(source = "organizationId", target = "organizationId")
+    @Mapping(target = "metadata", source = "request.metadata")
     Appointment toDomain(CreateAppointmentRequest request, UUID organizationId);
 
-    // Mapeos de ida y vuelta a la persistencia (Adaptador Salida)
+    // Mapeos de ida y vuelta a la persistencia
+    @Mapping(target = "status", expression = "java(domain.getStatus() != null ? domain.getStatus().name() : null)")
     AppointmentEntity toEntity(Appointment domain);
+
+    @Mapping(target = "status", expression = "java(entity.getStatus() != null ? com.medisaas.domain.model.Appointment.AppointmentStatus.valueOf(entity.getStatus()) : null)")
     Appointment toDomain(AppointmentEntity entity);
 
-    // Mapeo hacia la salida HTTP (Adaptador Entrada)
+    // Mapeo hacia la salida HTTP
+    @Mapping(target = "status", expression = "java(domain.getStatus() != null ? domain.getStatus().name() : null)")
     AppointmentResponse toResponse(Appointment domain);
 }

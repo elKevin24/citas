@@ -14,10 +14,13 @@ public interface PatientMapper {
 
     @Mapping(target = "id", ignore = true)
     @Mapping(source = "organizationId", target = "organizationId")
+    @Mapping(target = "metadata", source = "request.metadata")
     Patient toDomain(CreatePatientRequest request, UUID organizationId);
 
+    // Mapeos de persistencia
     PatientEntity toEntity(Patient domain);
     Patient toDomain(PatientEntity entity);
 
+    // Mapeo salida
     PatientResponse toResponse(Patient domain);
 }
